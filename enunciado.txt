@@ -1,0 +1,14 @@
+<programa>::={<instruccion>};
+<instruccion> ::=<bulce>|<salida>;
+<bucle> ::="mientras" <condición> "{"{<instruccion>}"}";
+<salida> ::= "imprimir" "(" <cadena>")"";";
+<condicion>::="verdadero"|"falso";
+<cadena>::=""{<caracter>}"";
+<caracter> ::= <letra> |<digito>
+<simbolo>;
+<letra>::="a"|"b"|...|"z"|"A"|"B"|...
+|"Z";
+<digito>::="0"|"1"|...|"9";
+<simbolo>::= "."|","|"!"|"?"|";"|":|""";
+
+

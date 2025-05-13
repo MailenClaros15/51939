@@ -1,0 +1,7 @@
+ mientras verdadero
+    imprimir("Hola");
+
+//falla: bucle: MIENTRAS condicion LBRACE instruccion* RBRACE;
+//El bucle debe tener sí o sí { ... } para su bloque de instrucciones.
+//Como en este ejemplo no las tiene, el parser debería detectar un error de sintaxis.
+

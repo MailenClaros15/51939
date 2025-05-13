@@ -44,3 +44,8 @@ QUOTE: '"';
 
 // Ignorar espacios, tabs y saltos de línea
 WS: [ \t\r\n]+ -> skip;
+//
+//
+//
+//
+//
