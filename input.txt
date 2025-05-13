@@ -1,7 +1,6 @@
-x = 2 + 3
-y = 3
-z = x + y
-z
+mientras verdadero {
+    imprimir ("hola");
+}
 
 
 
