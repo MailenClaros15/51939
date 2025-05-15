@@ -16,7 +16,8 @@ cadena: '"' caracter* '"';
 
 caracter: letra
         | digito
-        | simbolo;
+        | simbolo
+        ;
 
 letra: LETRA;
 
